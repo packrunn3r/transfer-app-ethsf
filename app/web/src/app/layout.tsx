@@ -62,7 +62,7 @@ export default function RootLayout(props: PropsWithChildren) {
         />
       </head>
 
-      <body>
+      <body className='bg-gray-800'>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
           <JotaiProvider>
             <Web3Provider initialState={initialState}>
